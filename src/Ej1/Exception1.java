@@ -1,6 +1,6 @@
 package Ej1;
 
-public class Exception1 extends Exception{
+public class Exception1 extends Throwable{
 
 
     public static void main(String[] args){

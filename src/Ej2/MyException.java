@@ -1,6 +1,6 @@
 package Ej2;
 
-public class MyException extends Exception{
+public class MyException extends Throwable{
     String mensaje;
     public MyException(String message) {
         super(message);
